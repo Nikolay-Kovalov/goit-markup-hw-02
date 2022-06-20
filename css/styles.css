@@ -1,0 +1,78 @@
+:root {
+--primary-text-color: #757575;
+--title-text-color: #212121;
+--nav-text-color: #212121;
+--accent-color: #2196F3;
+}
+/* Cтили index.html */
+/* Page */
+.page {
+    background-color: #E5E5E5;
+    color: var(--primary-text-color);
+}
+
+/* Lists styles  */
+ul {
+    list-style: none;
+} 
+
+/* Logo */
+.logo-studio {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.logo-web {
+    color: #000000;
+}
+
+/* Site-nav */
+.site-nav .link {
+    color: var(--nav-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* Contacts */
+.contacts .link {
+    color: var(--primary-text-color);
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--accent-color);
+}
+
+/* Hero */
+.hero-title {
+    color: #FFFFFF;
+}
+
+.button {
+color: #FFFFFF;
+background-color: #2196F3;    
+}
+.button:hover {
+color: var(--accent-color);
+}
+
+/* Section */
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* Features */
+/* What we are doing */
+.features-list .title {
+    color: var(--title-text-color);
+}
+
+/* Our team */
+.name .title {
+    color: var(--title-text-color);
+}
+
+/* Стили portfolio.html */
