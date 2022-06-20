@@ -76,3 +76,13 @@ color: var(--accent-color);
 }
 
 /* Стили portfolio.html */
+
+/* Examples */
+
+.examples-title {
+    color: var(--title-text-color);
+}
+
+.examples-list .title {
+    color: var(--title-text-color);
+}
