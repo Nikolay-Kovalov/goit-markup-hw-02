@@ -25,6 +25,7 @@ body {
     text-decoration: none;
 }
 
+
 /* Headder */
 
 .page-headder {
@@ -51,16 +52,18 @@ body {
 }
 
 /* Site-nav */
+
 .site-nav-link {
     color:#212121;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
+        outline: solid 2px tomato;
 }
 
-.site-nav-link:hover:hover,
-.site-nav-link:focus:focus {
+.site-nav-link:hover,
+.site-nav-link:focus {
     color: var(--accent-color);
 }
 
@@ -72,6 +75,7 @@ body {
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
+        outline: solid 2px tomato;
 }
 
 .contacts-link:hover:hover,
@@ -83,6 +87,7 @@ body {
 
 .hero {
     background-color: #2F303A;
+    outline: solid 2px tomato;
 }
 
 .hero-title {
@@ -93,6 +98,7 @@ body {
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
+        outline: solid 2px tomato;
 }
 
 .hero .button {
@@ -104,6 +110,7 @@ font-family: inherit;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
+    outline: solid 2px tomato;
 }
 
 /* Advantages */
@@ -113,11 +120,13 @@ font-family: inherit;
         font-size: 14px;
         line-height: 1.14;
         text-transform: uppercase;
+        outline: solid 2px tomato;
 }
 
 .advantage-section .list-item-text {
         font-size: 14px;
         line-height: 1.71;
+        outline: solid 2px tomato;
 }
 /* Work */
 
@@ -126,11 +135,14 @@ font-family: inherit;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+    outline: solid 2px tomato;
 }
 /* Our team */
 
 .team-section {
 background-color: #F5F4FA;
+outline: solid 2px tomato;
+
 }
 
 .team-section .title {
@@ -138,18 +150,23 @@ color: var(--title-text-color);
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+    outline: solid 2px tomato;
 }
 
 .team-section .list-title {
     color: var(--title-text-color);
         font-weight: 500;
         font-size: 16px;
-        line-height: 1.19;    
+        line-height: 1.19; 
+        outline: solid 2px tomato;
 }
 
 .team-section .list-title-text {
         font-size: 16px;
-        line-height: 1.19;}
+        line-height: 1.19;
+        outline: solid 2px tomato;
+    }
+        
 
   /* Footer */
 
@@ -169,12 +186,14 @@ color: #FFFFFF;
     font-style: normal;
     font-size: 14px;
     line-height: 1.71px; 
+    outline: solid 2px tomato;
 } 
 .mail-link {
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
         font-size: 14px;
         line-height: 1.71;
+        outline: solid 2px tomato;       
 }
 
 .phone-link {
@@ -182,8 +201,15 @@ color: #FFFFFF;
     font-style: normal;
             font-size: 14px;
             line-height: 1.71;
+            outline: solid 2px tomato;
 }
 
+.mail-link:hover,
+.mail-link:focus,
+.phone-link:hover,
+.phone-link:focus {
+    color: var(--accent-color);
+}
 /* Styles portfolio.html */
 
  /* Work examples section */
